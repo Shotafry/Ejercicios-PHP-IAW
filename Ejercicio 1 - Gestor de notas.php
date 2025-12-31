@@ -1,5 +1,5 @@
 <?php
-// Estos son los datos que nos han dado: nombres y sus tres notas
+// Estos son los datos del ejrcicio: nombres y sus tres notas
 $estudiantes = [    
     "Ana" => [8, 7, 9],    
     "Luis" => [5, 6, 4],    
@@ -16,11 +16,11 @@ function calcularPromedio($notas) {
 }
 
 $cuentaAprobados = 0; // Para contar cuántos pasan de 6
-$cuentaSuspendos = 0; // Para contar cuántos no llegan al 6
+$cuentaSuspendos = 0; // Para contar cuantos no llegan al 6
 $laMejorNota = 0; // Para guardar la nota más alta que encontremos
 $elMejorAlumno = ""; // Para guardar el nombre del que tiene esa nota
 
-// Vamos a mirar a cada estudiante de la lista uno por uno
+// con el bucle si mira a cada estudiante de la lista uno por uno, como en javascript o parecido.
 foreach ($estudiantes as $nombre => $notas) {
     $mediaAlumno = calcularPromedio($notas); // Usamos la función de arriba
     
