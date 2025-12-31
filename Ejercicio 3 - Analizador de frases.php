@@ -1,6 +1,6 @@
 <?php
 // La frase que hay que analizar
-$texto = "PHP no está muerto… solo sigue trabajando silenciosamente igual que Cobol en el 80% de Internet";
+$texto = "Me duele la espalda y las piernas, creo que tengo que cambiar de silla, lo raro es que es nueva, vaya suerte la mia, o igual tengo que moverme mas xD";
 
 // Pasamos todo a minúsculas para que no haya fallos con las mayúsculas
 $fraseEnMinusculas = strtolower($texto);
